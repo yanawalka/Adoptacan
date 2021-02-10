@@ -8,6 +8,8 @@ const Formulario = () => {
                 raza: ''
         })
 
+
+
         const handleInputChange = (event) => {
                 // console.log(event.target.name)
                 // console.log(event.target.value)
