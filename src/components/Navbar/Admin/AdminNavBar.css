@@ -1,0 +1,259 @@
+
+.LineaSeparadora1 {
+    background-color: rgb(12, 0, 122);
+    list-style: none;
+}
+
+#Membrete {
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-family: arial;
+    font-weight: bold;
+    padding-top: 10px;
+    height: 25px;
+    text-align: right;
+}
+
+#TextoMembrete {
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#TextoMembrete:hover {
+    color: black;
+}
+
+#LogoMuni {
+    margin-left: 60%;
+    width: 70%;
+    height: 100%;
+}
+
+#MenuNavegacion {
+    margin-top: 30px;
+    position: sticky;
+    list-style: none;
+    display: flex;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    top: 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#DivPaginas {
+    margin-top: 50px;
+    margin-left: 550px;
+    display: inline-flex;
+    position: absolute;
+}
+
+#TextoMenu {
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(65, 63, 63);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-image: linear-gradient( rgb(255, 0, 106), rgb(255, 0, 106));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .7s;
+}
+
+#TextoMenu:hover {
+    background-size: 100% 4px;
+}
+
+#TextoMenuReservaLi {
+    margin-top: -6px;
+}
+
+#TextoMenuReserva {
+    margin: 18px;
+    background-color: rgb(255, 204, 165);
+    border: 6px solid rgb(255, 204, 165);
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(65, 63, 63);
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#TextoMenuReserva:hover {
+    margin: 18px;
+    background-color: rgb(255, 159, 85);
+    border: 6px solid rgb(255, 159, 85);
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.DivSocial {
+    margin-top: 43px;
+    margin-left: 1070px;
+    display: inline-flex;
+    position: absolute;
+}
+
+#ImgSocial {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+}
+
+#ImgSocial:hover {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+    filter: blur(2px);
+}
+
+footer {
+    background: black;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+
+#ImgSocial2 {
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+}
+
+#ImgSocial2:hover {
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+    filter: blur(2px);
+}
+
+.links a {
+    float: left;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+.links a:hover {
+    color: rgb(255, 111, 0);
+}
+
+.copyright {
+    color: white;
+    text-align: right;
+    font-style: italic;
+    padding: 20px;
+}
+
+.copyright a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    color: rgb(255, 111, 0);
+}
+
+/* menu */
+
+.nav {
+    display: none;
+}
+
+.conten_menu {
+    display: none;
+}
+
+.menu_bar {
+    display: none;
+}
+
+.menu {
+    background: #094c59;
+    z-index: 1000;
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li:hover {
+    background: #5da5a2;
+}
+
+.menu ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu ul li a span {
+    margin-right: 10px;
+}
+
+.menu ul li:hover .children {
+    display: block;
+}
+
+.menu ul li .children {
+    display: none;
+    background: #0f7c90;
+    position: absolute;
+    width: 150%;
+    z-index: 1000;
+}
+
+.menu ul li .children li {
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+.menu ul li .children li a {
+    display: block;
+}
+
+.menu ul li .children li a span {
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.menu ul li .caret {
+    position: relative;
+    top: 3px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
